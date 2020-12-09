@@ -1,0 +1,22 @@
+{
+  "name": "heroku",
+  "version": "1.0.0",
+  "description": "un projet de td avec node et hebergement d'une application express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jean-Simondon/node-heroku.git"
+  },
+  "author": "Jean Simondon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jean-Simondon/node-heroku/issues"
+  },
+  "homepage": "https://github.com/Jean-Simondon/node-heroku#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
