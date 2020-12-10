@@ -7,6 +7,11 @@ app.get('/', function (req, res) {
     res.send('Hello world');
 });
 
+
+app.get('/other_road', function (req, res) {
+    res.send('Hello world');
+});
+
 app.listen(PORT, function() {
     console.log('Example app listening on port ' + PORT);
 });
